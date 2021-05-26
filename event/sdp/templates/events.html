@@ -1,0 +1,155 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="">
+<head>
+<title>events</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="{% static '/layout/styles/layout.css' %}" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="fl_left">
+      <ul>
+        <h1><p>Event Planning Is Hard.</p>
+                           <p>WE CAN HELP YOU</p></h1>
+        <li><i class="fa fa-envelope-o">eventmanagement521@gmail.com</i></li>
+      </ul>
+    </div>
+    <div class="fl_right">
+      <ul>
+        <li><a href="#"><i class="fa fa-lg fa-home"></i></a></li>
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div id="logo" class="fl_left">
+      <h1><a href="#">EVENTMANAGEMENT</a></h1>
+      <p>Project-521</p>
+    </div>
+    <div id="quickinfo" class="fl_right">
+      <ul class="nospace inline">
+        <li><strong>J.Hemanth</strong><br>
+          190030641</li>
+          <li><strong>K.Bharat</strong><br>
+         190030675 </li>
+        <li><strong>K.Harsha</strong><br>
+          190030715</li>
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </header>
+  <nav id="mainav" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <ul class="clear">
+      <li ><a href="index">Home</a></li>
+      <li class="active"><a class="drop" href="#">events</a>
+        <ul>
+          <li><a href="events">private events</a></li>
+          <li><a href="public_events">public events</a></li>
+        </ul>
+      </li>
+      <li><a href="gallery">Gallery</a></li>
+      <li><a href="aboutus">AboutUs</a></li>
+    </ul>
+    <!-- ################################################################################################ -->
+  </nav>
+</div>
+
+
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        /* Float four columns side by side */
+        .column {
+          float: left;
+          width: 50%;
+          padding: 0 10px;
+        }
+        
+        /* Remove extra left and right margins, due to padding */
+        .row {margin: 0 -5px;}
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Responsive columns */
+        @media screen and (max-width: 600px) {
+          .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+          }
+        }
+        
+        /* Style the counter cards */
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          padding: 16px;
+          text-align: center;
+          background-color: #f1f1f1;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h2>Events</h2>
+        <p>pick your event</p>
+        
+        <div class="row">
+          <div class="column">
+            <div class="card">
+                <img src="{% static '/images/demo/gallery/birthday.jpg' %}" alt="Avatar" style="width:100%">
+                <li><a href="birthday">birth events</a></li>
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                  <img src="{% static '/images/demo/gallery/marriage.jpg' %}" alt="Avatar" style="width:100%">
+                  <li><a href="marriage">marriage events</a></li>
+              </div>
+            </div>
+          <br><br><br><br><br><br><br><br><br><br>
+            <div class="row">
+                <div class="column">
+                  <div class="card">
+                      <img src="{% static '/images/demo/gallery/college events.jpg' %}" alt="Avatar" style="width:100%">
+                      <li><a href="college">college events</a></li>
+                  </div>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                      <div class="card">
+                          <img src="{% static '/images/demo/gallery/bussiness.jpg' %}" alt="Avatar" style="width:100%">
+                          <li><a href="bussiness">business event</a></li>
+                      </div>
+                    </div>
+
+</body>
+</html>
